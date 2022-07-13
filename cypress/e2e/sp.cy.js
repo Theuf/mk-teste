@@ -1,0 +1,62 @@
+describe('home page', ()=>{
+  
+  it('realizar login', ()=>{
+    cy.viewport(1366, 660)
+    cy.visit('https://www.mksolutions.com.br/solicitar-proposta')
+    cy.get('.lgpd-content > .cta-primary').click()
+    cy.get('.blue').should('have.text','aumentar os resultados do seu provedor')
+    cy.get('form > [name="name"]').type('Teste')
+    cy.get('form > [type="email"]').type('teste.teste@noemail.com')
+    cy.get('[name="phone"]').type('81900000000')
+    cy.get('[name="help"]').type('sera que agora ja deu kkk')
+    cy.get('form > .cta-primary').click()
+    
+  })
+  it('realizar login', ()=>{
+    cy.viewport(1366, 660)
+    cy.visit('https://www.mksolutions.com.br/solicitar-proposta')
+    cy.get('.lgpd-content > .cta-primary').click()
+    cy.get('.blue').should('have.text','aumentar os resultados do seu provedor')
+    cy.get('form > [name="name"]').type('123445')
+    cy.get('form > [type="email"]').type('teste.teste@noemail.com')
+    cy.get('[name="phone"]').type('aaaaaaaaaa')
+    cy.get('[name="help"]').type('sera que agora ja deu kkk')
+    cy.get('form > .cta-primary').click()
+  })
+
+  it('realizar login', ()=>{
+    cy.viewport(1366, 660)
+    cy.visit('https://www.mksolutions.com.br/solicitar-proposta')
+    cy.get('.lgpd-content > .cta-primary').click()
+    cy.get('.blue').should('have.text','aumentar os resultados do seu provedor')
+    cy.get('form > [name="name"]').type('123445')
+    cy.get('form > [type="email"]').type('teste.teste@noemail.com')
+    cy.get('[name="phone"]').type('819656456484864865')
+    cy.get('[name="help"]').type('sera que agora ja deu kkk')
+    cy.get('form > .cta-primary').click()
+  })
+
+  it('realizar login', ()=>{
+    cy.viewport(1366, 660)
+    cy.visit('https://www.mksolutions.com.br/solicitar-proposta')
+    cy.get('.lgpd-content > .cta-primary').click()
+    cy.get('.blue').should('have.text','aumentar os resultados do seu provedor')
+    cy.get('form > [name="name"]').type('123445')
+    cy.get('form > [type="email"]').type('teste.teste@noemail.com')
+    cy.get('[name="phone"]').type('819656456484864865')
+    cy.get('[name="help"]').type('sera que agora ja deu kkk')
+    cy.get('form > .cta-primary').click()
+  })
+  it('realizar login', ()=>{
+    cy.viewport(1366, 660)
+    cy.visit('https://www.mksolutions.com.br/solicitar-proposta')
+    cy.get('.lgpd-content > .cta-primary').click()
+    cy.get('.blue').should('have.text','aumentar os resultados do seu provedor')
+    cy.get('form > [name="name"]').type('1')
+    cy.get('form > [type="email"]').type('teste.teste')
+    cy.get('[name="phone"]').type('81900000000')
+    cy.get('[name="help"]').type('sera que agora ja deu kkk')
+    cy.get('form > .cta-primary').click()
+  })
+  
+  })

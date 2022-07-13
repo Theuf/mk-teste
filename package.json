@@ -1,0 +1,22 @@
+{
+  "name": "mk-teste",
+  "version": "1.0.0",
+  "description": "Teste MK",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Theuf/mk-teste.git"
+  },
+  "author": "Matheus Marcena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Theuf/mk-teste/issues"
+  },
+  "homepage": "https://github.com/Theuf/mk-teste#readme",
+  "devDependencies": {
+    "cypress": "^10.3.0"
+  }
+}
