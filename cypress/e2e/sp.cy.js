@@ -17,7 +17,7 @@ describe('home page', ()=>{
     cy.visit('https://www.mksolutions.com.br/solicitar-proposta')
     cy.get('.lgpd-content > .cta-primary').click()
     cy.get('.blue').should('have.text','aumentar os resultados do seu provedor')
-    cy.get('form > [name="name"]').type('123445')
+    cy.get('form > [name="name"]').type('85128317')
     cy.get('form > [type="email"]').type('teste.teste@noemail.com')
     cy.get('[name="phone"]').type('aaaaaaaaaa')
     cy.get('[name="help"]').type('sera que agora ja deu kkk')
